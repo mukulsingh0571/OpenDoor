@@ -90,9 +90,9 @@ Before you begin, ensure you have the following installed:
         cd client
         npm install -g serve
         serve -s dist
-    ```
+        ```
 
-7. **CConfigure NGINX as a reverse proxy to handle requests and forward them to the backend:** 
+7. **Configure NGINX as a reverse proxy to handle requests and forward them to the backend:** 
 
     ```bash
         cd api
@@ -104,7 +104,6 @@ Before you begin, ensure you have the following installed:
 
 ## Project Structure
 
-    ```
     OpenDoor/
     |
     |-- api/                  # Backend API code (Node.js, Express)
@@ -122,7 +121,6 @@ Before you begin, ensure you have the following installed:
     |
     |-- socket/               # WebSocket (Socket.io) configuration
     |   |-- server.js         # WebSocket server
-    ```
 
 ## Scripts
 
