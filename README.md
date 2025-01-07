@@ -43,11 +43,9 @@ Before you begin, ensure you have the following installed:
 2. **Install dependencies for both the frontend and backend:**
 
     ```bash
-        cd api
-        npm install
-
-        cd ../client
-        npm install
+        DATABASE_URL="mongodb+srv://username:password@cluster.mongodb.net/OpenDoor?retryWrites=true&w=majority"
+        JWT_SECRET_KEY="your-secret-key"
+        CLIENT_URL="http://localhost:5173"
     ```
 
 3. **Create a .env file in the api directory with the following environment variables:**
