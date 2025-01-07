@@ -104,23 +104,23 @@ Before you begin, ensure you have the following installed:
 
 ## Project Structure
 
-    OpenDoor/
-    |
-    |-- api/                  # Backend API code (Node.js, Express)
-    |   |-- controllers/      # API logic and business logic
-    |   |-- models/           # Mongoose models
-    |   |-- routes/           # API route definitions
-    |   |-- .env              # Environment variables
-    |   |-- server.js         # Main entry point for the backend server
-    |
-    |-- client/               # Frontend code (React.js)
-    |   |-- src/              # React components and pages
-    |   |-- dist/             # Build directory for production
-    |   |-- package.json      # Frontend dependencies and scripts
-    |   |-- vite.config.js    # Vite configuration file
-    |
-    |-- socket/               # WebSocket (Socket.io) configuration
-    |   |-- server.js         # WebSocket server
+        OpenDoor/
+        |
+        |-- api/                  # Backend API code (Node.js, Express)
+        |   |-- controllers/      # API logic and business logic
+        |   |-- models/           # Mongoose models
+        |   |-- routes/           # API route definitions
+        |   |-- .env              # Environment variables
+        |   |-- server.js         # Main entry point for the backend server
+        |
+        |-- client/               # Frontend code (React.js)
+        |   |-- src/              # React components and pages
+        |   |-- dist/             # Build directory for production
+        |   |-- package.json      # Frontend dependencies and scripts
+        |   |-- vite.config.js    # Vite configuration file
+        |
+        |-- socket/               # WebSocket (Socket.io) configuration
+        |   |-- server.js         # WebSocket server
 
 ## Scripts
 
